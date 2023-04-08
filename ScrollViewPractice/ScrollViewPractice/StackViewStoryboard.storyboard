@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="TRb-NN-S2E" userLabel="Scroll Stack">
+                                <rect key="frame" x="-100" y="269" width="575" height="30"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e2x-Yh-S4N" userLabel="VolleyballView">
+                                        <rect key="frame" x="0.0" y="0.0" width="115" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Волейбол" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uj3-SY-Bjv" userLabel="Волейбол">
+                                                <rect key="frame" x="18" y="5" width="78.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Uj3-SY-Bjv" firstAttribute="centerX" secondItem="e2x-Yh-S4N" secondAttribute="centerX" id="6WE-OZ-4PD"/>
+                                            <constraint firstAttribute="height" constant="30" id="HYd-7u-jlY"/>
+                                            <constraint firstItem="Uj3-SY-Bjv" firstAttribute="centerY" secondItem="e2x-Yh-S4N" secondAttribute="centerY" id="lOe-7c-hio"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Txf-9X-xu7" userLabel="TennisView">
+                                        <rect key="frame" x="122" y="0.0" width="115" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Теннис" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0MG-zT-NRq" userLabel="Теннис">
+                                                <rect key="frame" x="29" y="5" width="57.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Kk6-k8-hDz"/>
+                                            <constraint firstItem="0MG-zT-NRq" firstAttribute="centerX" secondItem="Txf-9X-xu7" secondAttribute="centerX" id="VQB-Tm-U0k"/>
+                                            <constraint firstItem="0MG-zT-NRq" firstAttribute="centerY" secondItem="Txf-9X-xu7" secondAttribute="centerY" id="qJa-QB-LuW"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nNE-O3-nqw" userLabel="HockeyView">
+                                        <rect key="frame" x="244" y="0.0" width="115" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Хоккей" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7IS-bM-NAT" userLabel="Хоккей">
+                                                <rect key="frame" x="29" y="5" width="57.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="7IS-bM-NAT" firstAttribute="centerY" secondItem="nNE-O3-nqw" secondAttribute="centerY" id="3pJ-1h-3Cj"/>
+                                            <constraint firstAttribute="height" constant="30" id="7lS-Cx-PJS"/>
+                                            <constraint firstItem="7IS-bM-NAT" firstAttribute="centerX" secondItem="nNE-O3-nqw" secondAttribute="centerX" id="qBO-Se-1ZO"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z74-G3-Jcb" userLabel="BasketballView">
+                                        <rect key="frame" x="366" y="0.0" width="87" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Баскетбол" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTN-9C-IGr" userLabel="Баскетбол">
+                                                <rect key="frame" x="16" y="5" width="83" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="iTN-9C-IGr" firstAttribute="centerY" secondItem="Z74-G3-Jcb" secondAttribute="centerY" id="13B-sN-0GQ"/>
+                                            <constraint firstItem="iTN-9C-IGr" firstAttribute="centerX" secondItem="Z74-G3-Jcb" secondAttribute="centerX" id="mHb-WD-gzO"/>
+                                            <constraint firstAttribute="height" constant="30" id="yJM-9E-U8d"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o3Q-8g-zOO" userLabel="SoccerView">
+                                        <rect key="frame" x="460" y="0.0" width="115" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Футбол" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-v3-P7W" userLabel="Футбол">
+                                                <rect key="frame" x="28" y="5" width="59" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="Zav-v3-P7W" firstAttribute="centerY" secondItem="o3Q-8g-zOO" secondAttribute="centerY" id="OkB-DM-TYZ"/>
+                                            <constraint firstAttribute="height" constant="30" id="U0B-7Z-Bpt"/>
+                                            <constraint firstItem="Zav-v3-P7W" firstAttribute="centerX" secondItem="o3Q-8g-zOO" secondAttribute="centerX" id="nUT-Cc-Qcl"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="TRb-NN-S2E" secondAttribute="trailing" constant="-100" id="5Kw-U7-ZZK"/>
+                            <constraint firstItem="TRb-NN-S2E" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="-100" id="9A2-Bi-md2"/>
+                            <constraint firstItem="TRb-NN-S2E" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" constant="269" id="Ph2-q7-4q9"/>
+                            <constraint firstAttribute="bottom" secondItem="TRb-NN-S2E" secondAttribute="bottom" constant="270" id="khO-Cy-f4a"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-152" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
