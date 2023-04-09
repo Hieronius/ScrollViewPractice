@@ -824,7 +824,6 @@
                                     <constraint firstItem="RUe-vU-ltq" firstAttribute="leading" secondItem="LrS-3r-5ew" secondAttribute="leading" id="LqM-Jm-9w4"/>
                                     <constraint firstAttribute="width" constant="360" id="ay8-7i-169"/>
                                     <constraint firstItem="RUe-vU-ltq" firstAttribute="top" secondItem="LrS-3r-5ew" secondAttribute="top" id="n2O-tH-1lg"/>
-                                    <constraint firstAttribute="height" constant="100" id="znj-EV-8gm"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="LrS-3r-5ew"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="8DA-dD-Hfk"/>
