@@ -659,13 +659,13 @@
         <!--View Controller-->
         <scene sceneID="5xs-nC-4cv">
             <objects>
-                <viewController id="zzS-Se-7uN" sceneMemberID="viewController">
+                <viewController id="zzS-Se-7uN" customClass="ViewController" customModule="ScrollViewPractice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ba4-jY-k7m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7VR-rP-TvG">
-                                <rect key="frame" x="7.5" y="283.5" width="360" height="100"/>
+                                <rect key="frame" x="15" y="283.5" width="337.5" height="100"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="RUe-vU-ltq">
                                         <rect key="frame" x="0.0" y="0.0" width="4449" height="100"/>
@@ -822,7 +822,6 @@
                                     <constraint firstItem="RUe-vU-ltq" firstAttribute="bottom" secondItem="LrS-3r-5ew" secondAttribute="bottom" id="CsQ-kj-ONK"/>
                                     <constraint firstItem="RUe-vU-ltq" firstAttribute="trailing" secondItem="LrS-3r-5ew" secondAttribute="trailing" id="JPv-bX-S3P"/>
                                     <constraint firstItem="RUe-vU-ltq" firstAttribute="leading" secondItem="LrS-3r-5ew" secondAttribute="leading" id="LqM-Jm-9w4"/>
-                                    <constraint firstAttribute="width" constant="360" id="ay8-7i-169"/>
                                     <constraint firstItem="RUe-vU-ltq" firstAttribute="top" secondItem="LrS-3r-5ew" secondAttribute="top" id="n2O-tH-1lg"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="LrS-3r-5ew"/>
@@ -832,8 +831,9 @@
                         <viewLayoutGuide key="safeArea" id="FtK-P9-teb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7VR-rP-TvG" firstAttribute="centerX" secondItem="Ba4-jY-k7m" secondAttribute="centerX" id="PBc-Jf-Zcf"/>
-                            <constraint firstItem="7VR-rP-TvG" firstAttribute="centerY" secondItem="Ba4-jY-k7m" secondAttribute="centerY" id="my3-7a-UFE"/>
+                            <constraint firstItem="7VR-rP-TvG" firstAttribute="top" secondItem="Ba4-jY-k7m" secondAttribute="top" constant="283.5" id="ZO4-h5-fLA"/>
+                            <constraint firstItem="7VR-rP-TvG" firstAttribute="width" secondItem="Ba4-jY-k7m" secondAttribute="width" multiplier="0.9" id="eDd-ZP-ZZd"/>
+                            <constraint firstItem="7VR-rP-TvG" firstAttribute="leading" secondItem="Ba4-jY-k7m" secondAttribute="leading" constant="15" id="yzY-Lf-dLC"/>
                         </constraints>
                     </view>
                 </viewController>
